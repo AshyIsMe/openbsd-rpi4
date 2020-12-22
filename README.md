@@ -1,5 +1,11 @@
 # OpenBSD on RaspberryPi 4 B
 
+The following notes capture the process I followed to get OpenBSD 6.8 running on a Raspberry Pi 4 (8GB).
+There's no X11 support as far as I'm aware but the framebuffer console does work via HDMI with the latest EEPROM and UEFI as per below.
+
+Supposedly it's possible to boot directly from usb without needing an sdcard for the UEFI but I have not had success with that yet.
+
+
 ## Update EEPROM via Raspberry Pi OS
 
 1. Boot Raspberry Pi OS on an sdcard
