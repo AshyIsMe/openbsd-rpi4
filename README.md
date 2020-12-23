@@ -64,6 +64,7 @@ dd if=miniroot68.img of=/dev/sdX bs=1m status=progress
 * Set the tty to use the framebuffer instead of the serial port:
   * set tty fb0
   * Thanks Christopher Solskogen: https://marc.info/?l=openbsd-arm&m=160683302013161&w=2
-  * (I have not yet been successful in getting /etc/boot.conf to work as per his note and have been doing the above manually on every boot)
 * Now do a normal OpenBSD install (over the top of the same USB drive if desired).
   * Wifi firmware is missing from the installer so this is easiest with ethernet plugged in for the install.  Wifi firmware is automatically installed on first boot if ethernet is available.
+* Set framebuffer as default console (as per Christopher Solskogen's note)
+  * `echo "set tty fb0" >> /etc/boot.conf`
