@@ -68,3 +68,5 @@ dd if=miniroot68.img of=/dev/sdX bs=1m status=progress
   * Wifi firmware is missing from the installer so this is easiest with ethernet plugged in for the install.  Wifi firmware is automatically installed on first boot if ethernet is available.
 * Set framebuffer as default console (as per Christopher Solskogen's note)
   * `echo "set tty fb0" >> /etc/boot.conf`
+* Enable X11
+  * `rcctl enable xenodm`
