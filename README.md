@@ -22,6 +22,11 @@ rpi-eeprom-update
 
 Follow these steps: https://github.com/pftf/RPi4#installation
 
+### 2021-04-11 Update: 
+* Release v1.21 is *confirmed working*: https://github.com/pftf/RPi4/releases/tag/v1.21
+* v1.25 is currently broken: [details on reddit thread](https://old.reddit.com/r/openbsd/comments/moilsj/openbsd_install_on_rpi4_keeps_rebooting/)
+* v1.22 - v1.24: I have not tested yet.
+
 ## Set UEFI settings for OpenBSD compatability
 
 * Boot with hdmi monitor and keyboard attached
