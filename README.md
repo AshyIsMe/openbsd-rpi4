@@ -7,9 +7,9 @@ Supposedly it's possible to boot directly from usb without needing an sdcard for
 
 Update: As of 4/17/2021, there has been some cleanup and improvements to the Raspberry Pi 4 boot process on OpenBSD 6.9 without requiring all the extra steps involving UEFI firmware, see more details below:
 
-[https://marc.info/?l=openbsd-cvs&m=161869438709739&w=2](https://marc.info/?l=openbsd-cvs&m=161869438709739&w=2)
+https://marc.info/?l=openbsd-cvs&m=161869438709739&w=2
 
-[https://marc.info/?l=openbsd-cvs&m=161869450909798&w=2](https://marc.info/?l=openbsd-cvs&m=161869438709739&w=2)
+https://marc.info/?l=openbsd-cvs&m=161869450909798&w=2
 
 
 ## Update EEPROM via Raspberry Pi OS
