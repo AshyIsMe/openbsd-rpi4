@@ -61,7 +61,7 @@ You can also try to set the boot order to have your USB drive first but I found 
 dd if=miniroot68.img of=/dev/rsdXc bs=1m status=progress
 
 # Or from a linux machine
-dd if=miniroot68.img of=/dev/sdX bs=1m status=progress
+dd if=miniroot68.img of=/dev/sdX bs=1M status=progress
 ```
 
 ### Boot the OpenBSD installer (serial console NOT required)
